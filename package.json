@@ -1,0 +1,34 @@
+{
+  "name": "lundb",
+  "version": "2.1.0",
+  "description": "Simple Database Module!",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunexdev/lundb.git"
+  },
+  "keywords": [
+    "database",
+    "db",
+    "wio.db",
+    "lundb",
+    "stesco",
+    "nodejs database",
+    "json database",
+    "lunex",
+    "quick.db",
+    "croxy.db"
+  ],
+  "author": "lunexdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunexdev/lundb/issues"
+  },
+  "homepage": "https://github.com/lunexdev/lundb#readme"
+}
