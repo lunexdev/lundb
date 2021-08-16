@@ -57,29 +57,22 @@ console.log(db.math("35 , "+" , "5")); //40
 **all method**
 
 ```js
-//database
 set(key , key2)
 get(key)
-has(key) //if(has(key)=="true")
+has(key) //boolean
 fetch(key)
 add(key , key2)
 subtract(key , key2)
-push("array name" , {"array1" : "value" , "array2" : "value"}
-
-//clear
+push("array name" , {"array1" : "value" , "array2" : "value"})
 delete(key)
 clear(key)
 ```
 **client methods**
 
 ```js
-ready()
-
 db.on("ready" , {
 message : "ready message"
 })
-
-dataAdd()
 
 db.on("dataAdd" , {
 message : "data add message"
